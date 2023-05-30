@@ -4,7 +4,8 @@ public class Student {
     private int stdId;
     private String stdName;
 
-    public Student(int stdId, String stdName) {
+     public Student(int stdId, String stdName) {
+        System.out.println("Student Constructor");
         this.stdId = stdId;
         this.stdName = stdName;
     }
